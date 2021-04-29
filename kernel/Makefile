@@ -10,7 +10,7 @@ LIBS?=
 DESTDIR?=
 PREFIX?=/usr/local
 EXEC_PREFIX?=$(PREFIX)
-BOOTDIR?=$(EXEC_PREFIX)/boot
+BOOTDIR?=$(EXEC_PREFIX)/kernel/boot
 INCLUDEDIR?=$(PREFIX)/include
  
 CFLAGS:=$(CFLAGS) -ffreestanding -Wall -Wextra
