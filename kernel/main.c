@@ -1,6 +1,6 @@
 #include <stdio.h>
  
-#include <kernel/tty.h>
+#include <kernel/text.h>
  
 void main(void) {
 	terminal_initialize();
