@@ -1,3 +1,6 @@
+;----------------------------------------------------------
+; This is adapted from wiki.osdev.org babystep tutorials. ;
+;----------------------------------------------------------
 %macro BiosPrint 1 ; macro thing
                 mov si, word %1
 ch_loop:lodsb
@@ -19,7 +22,7 @@ done:
 hang:
    jmp hang
 
-msg   db 'DFC OS booted!', 13, 10, 0 ; message
+msg   db 'DFC OS booted! This code is adapted from OSDev.org tutorials!', 13, 10, 0 ; message
 
    times 510-($-$$) db 0 ; 510 bytes
    db 0x55
