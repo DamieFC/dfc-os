@@ -24,10 +24,8 @@
  * SOFTWARE.
  */
 #include "framebuffer.h"
-#include <boot/boot.h>
-#include <libk/logging.h>
-#include <libk/string.h>
-#include <memory/pmm.h>
+#include <log.h>
+#include <string.h>
 
 /* The font is terminus.
 Copyright (c) 2011 Tilman Blumenbach,
